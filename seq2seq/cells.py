@@ -1,9 +1,9 @@
 import recurrentshop
 from recurrentshop.cells import *
-from keras.models import Model
-from keras.layers import Input, Dense, Lambda, Activation
-from keras.layers import add, multiply, concatenate
-from keras import backend as K
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Dense, Lambda, Activation
+from tensorflow.keras.layers import add, multiply, concatenate
+from tensorflow.keras import backend as K
 
 
 class LSTMDecoderCell(ExtendedRNNCell):
